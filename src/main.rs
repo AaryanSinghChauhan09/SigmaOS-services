@@ -7,8 +7,8 @@
 
 use std::env;
 
-use anyhow::{Context, Result};
-use log::{debug, error, info, warn};
+use anyhow::Result;
+use log::{debug, info, warn};
 
 fn main() -> Result<()> {
     // Initialise logging (respects RUST_LOG env var)
